@@ -12,7 +12,7 @@ html {
 
 body {
     background-color: #ebebeb;
-    min-height: 14000px;
+    min-height: auto;
     scroll-behavior: smooth;
 }
 
@@ -1936,8 +1936,6 @@ header .header-content .menu:hover .menu-content {
     font-weight: 900;
 }
 
-.discount .discount-form .form {}
-
 .discount .discount-form input {
     display: block;
     margin: auto;
@@ -1997,7 +1995,6 @@ footer {
     background-color: #161616;
     color: #a9a9a9;
     overflow: hidden;
-    height: 100vh;
 }
 
 footer .footer-content {
