@@ -1,8 +1,6 @@
 
 let src = document.querySelector(".pagescroll");
 let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-console.log(document.documentElement.clientHeight)
-console.log(document.documentElement.scrollHeight)
 
 window.addEventListener("scroll", () => {
     let sc = document.documentElement.scrollTop;
@@ -167,8 +165,3 @@ scroltop.onclick = function () {
         behavior: "smooth",
     });
 };
-
-let features = document.querySelectorAll(".features button");
-let featuresimages = document.querySelectorAll(".features img");
-
-features[0].onclick = function () { featuresimages[0].src = "../css/features/features-02.jpg"; }

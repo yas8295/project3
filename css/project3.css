@@ -7,6 +7,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -378,7 +379,7 @@ header .header-content .menu:hover .menu-content {
     position: relative;
     overflow: hidden;
     padding-bottom: 150px;
-    height: 100vh;
+    height: auto;
 }
 
 .main::after {
@@ -822,6 +823,7 @@ header .header-content .menu:hover .menu-content {
     position: absolute;
     right: 0;
     top: -49px;
+    border: none;
 }
 
 .testemonials .testemonials-content .testemonials-box h2 {
@@ -1836,7 +1838,7 @@ header .header-content .menu:hover .menu-content {
     gap: 20px;
     background-color: white;
     text-align: center;
-    height: 100vh;
+    height: auto;
 }
 
 .discount .discount-image {
@@ -1993,6 +1995,7 @@ footer {
     padding: 80px 0px;
     background-color: #161616;
     color: #a9a9a9;
+    overflow: hidden;
 }
 
 footer .footer-content {
@@ -2010,7 +2013,6 @@ footer .footer-content {
     }
 }
 
-footer .footer-content .social-data {}
 
 footer .footer-content .social-data h1 {
     color: white;
@@ -2059,7 +2061,6 @@ footer .footer-content .social-data p {
     }
 }
 
-footer .footer-content .footer-links {}
 
 footer .footer-content .footer-links a {
     color: #a9a9a9;
@@ -2145,6 +2146,7 @@ footer .footer-content .footer-images img {
     outline: 5px solid rgb(229, 229, 229);
     transition: 0.6s;
     opacity: 0;
+    border: none;
 }
 
 .scrolltop:hover {
