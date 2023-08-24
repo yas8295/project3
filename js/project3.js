@@ -151,11 +151,11 @@ function progressWidth2(skillProgress) {
 
 function Sectiondisplay(Section) {
     Section.style.opacity = "1";
-    Section.style.translate = "0px -20px";
+    Section.style.translate = "0px 0px";
 }
 function Sectiondisplay2(Section) {
     Section.style.opacity = "0";
-    Section.style.translate = "0px 0px";
+    Section.style.translate = "0px 40px";
 }
 
 let scroltop = document.querySelector(".scrolltop")
