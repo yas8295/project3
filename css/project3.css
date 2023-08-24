@@ -1996,6 +1996,7 @@ footer {
     background-color: #161616;
     color: #a9a9a9;
     overflow: hidden;
+    height: 100vh;
 }
 
 footer .footer-content {
